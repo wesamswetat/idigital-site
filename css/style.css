@@ -1,0 +1,464 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.fa {
+    color: #afafaf;
+    font-size: 1.2em;
+    padding-left: 5px;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+/*###################### Grouping For All site START ################ */
+
+.topPageHeader,
+.firstHeader,
+.topPageHeader .firstHeader .logo,
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul,
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > div,
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu ul > li > div .headerMenuHover,
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > .experienceHover,
+footer > div{
+    overflow: hidden;
+}
+
+.topPageHeader .firstHeader div,
+.topPageHeader .firstHeader .logo img{
+    float: left;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu {
+    float: right;
+    direction: rtl;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li,
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > .experienceHover > ul > li,
+footer > div > ul {
+    list-style: none;
+    float: right;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > a,
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu ul > li > div .headerMenuHover > li > a,
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > .experienceHover > ul > li > a,
+footer > div > ul > li > a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*###################### HEADER START ################ */
+.topPageHeader {
+    background-color: #efefef;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+
+.topPageHeader .logo .icons {
+    padding-top: 25px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.topPageHeader .logo img {
+    border-right: 1px solid #d6d6d6;
+    margin-top: 8px;
+    padding: 12px;
+}
+
+.topPageHeader .logo .icons i:nth-child(3) {
+    color: #fff;
+    background-color: #afafaf;
+    font-size: 1.1em;
+    padding: 4px;
+    border-radius: 5px 0 0 5px;
+    margin-left: 10px;
+}
+
+.topPageHeader .logo .icons label input {
+    background-color: #afafaf;
+    width: 60px;
+    padding: 10px 5px 5px 5px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    border: none;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul {
+    padding-right: 10px;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu ul > li {
+    border-right: 1px solid rgba(214, 214, 214, 0);
+    border-left: 1px solid rgba(214, 214, 214, 0);
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > a {
+    display: block;
+    padding: 27px 15px;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > div {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    display: none;
+    margin: -1px auto 0 auto;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > .experienceHover {
+    text-align: right;
+    width: 780px;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    right: auto;
+    display: none;
+    margin: -1px auto 0 auto;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > .experienceHover > ul > li {
+    width: 210px;
+    padding: 0 15px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > .experienceHover > ul > li + li {
+    border-right: 1px solid #d7d7d7;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > .experienceHover > ul li:nth-child(4) {
+    border-right: 1px solid transparent;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li > .experienceHover > ul > li > a > header {
+    font-size: 1.5em;
+    margin: 5px 0 20px 0;
+    color: #0088cc;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu ul > li:hover > div {
+    display: block;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu ul > li:hover > div .headerMenuHover {
+    display: inline-block;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu ul > li > div .headerMenuHover > li > a > img {
+    height: 90px;
+    width: 70px;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu ul > li:hover > div .headerMenuHover > li {
+    list-style: none;
+    width: 100px;
+    float: right;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu > ul > li:hover {
+    background-color: white;
+    transition: all 0.4s ease-in-out 0s;
+    border-right: 1px solid rgba(214, 214, 214, 1);
+    border-left: 1px solid rgba(214, 214, 214, 1);
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerMenu ul > li:hover > div {
+    display: inline;
+    overflow: hidden;
+}
+
+.topPageHeader .firstHeader .headerRight-headerMenu .headerRight {
+    margin-top: 7px;
+    padding: 0 15px 0 15px;
+    border-left: 1px solid #d6d6d6;
+}
+
+/*<!-- ######################################### NEXT HEADER START ##-->*/
+.secondHeader {
+    margin-top: 2px;
+    overflow: hidden;
+}
+
+.secondHeader ul {
+    margin: 0;
+    padding: 0;
+}
+
+.secondHeader ul li {
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 6px solid #00acef;
+    border-bottom: 1px solid transparent;
+    width: 20%;
+    vertical-align: top;
+}
+
+.secondHeader ul li a {
+    text-decoration: none;
+}
+
+.secondHeader ul li a img {
+    width: 72px;
+    height: auto;
+}
+
+.secondHeader ul li a span {
+    color: #fff;
+    background-color: #00acef;
+    font-size: 0.85em;
+    padding: 1px 2px;
+    margin-left: 7px;
+    vertical-align: top;
+}
+
+.secondHeader ul li:nth-child(2) {
+    border-top: 6px solid #552982;
+}
+
+.secondHeader ul li:nth-child(3) {
+    border-top: 6px solid #8ed82d;
+}
+
+.secondHeader ul li:nth-child(4) {
+    border-top: 6px solid #00678e;
+}
+
+.secondHeader ul li:nth-child(5) {
+    border-top: 6px solid #df834c;
+}
+
+.secondHeader ul li:nth-child(2) a span {
+    background-color: #552982
+}
+
+.secondHeader ul li:nth-child(3) a span {
+    background-color: #8ed82d
+}
+
+.secondHeader ul li:nth-child(4) a span {
+    background-color: #00678e
+}
+
+.secondHeader ul li:nth-child(5) a span {
+    background-color: #df834c
+}
+
+.secondHeader ul li:nth-child(1):hover {
+    background-color: rgba(0, 172, 239, 0.1);
+    border-bottom: 1px solid #00acef;
+    border-top: 6px solid #00acef;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.secondHeader ul li:nth-child(2):hover {
+    background-color: rgba(85, 41, 130, 0.1);
+    border-bottom: 1px solid #552982;
+    border-top: 6px solid #552982;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.secondHeader ul li:nth-child(3):hover {
+    background-color: rgba(142, 216, 45, 0.1);
+    border-bottom: 1px solid #8ed82d;
+    border-top: 6px solid #8ed82d;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.secondHeader ul li:nth-child(4):hover {
+    background-color: rgba(0, 103, 142, 0.1);
+    border-bottom: 1px solid #00678e;
+    border-top: 6px solid #00678e;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.secondHeader ul li:nth-child(5):hover {
+    background-color: rgba(223, 131, 76, 0.1);
+    border-bottom: 1px solid #efc1a5;
+    border-top: 6px solid #df834c;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+/*<!-- ############################### slider START ################# -->*/
+
+.slider > div > ul > li > a > img {
+    width: 100%;
+}
+
+/*<!-- ############################### CONTENT START ################# -->*/
+
+.content{
+    overflow: hidden;
+    border-bottom: 1px solid #d6d6d6;
+    margin-top: 1%;
+}
+
+.content > div {
+    width: 30%;
+    float: right;
+    direction: rtl;
+    box-sizing: border-box;
+    padding-right: 1%;
+}
+
+.content > div + div {
+    border-right: 1px solid #d6d6d6;
+    margin-right: 5%;
+}
+
+.content > div > header{
+    font-size: 1.8em;
+    margin-bottom: 10%;
+    color: #000;
+
+}
+
+.content > div > p{
+    height: 60px;
+    margin-bottom: 5%;
+    color: #999;
+}
+
+.content > div > a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #0088cc;
+}
+
+.content > div > .fa {
+    padding-right: 2.5%;
+    margin-bottom: 5%;
+    color: #0088cc;
+}
+
+.content > div > img{
+    display: block;
+    max-width: 100%;
+    height: 228px;
+    margin: auto;
+    vertical-align: bottom;
+}
+
+/*<!-- ############################### baner slider 2 START ################# -->*/
+
+.slider2 > img {
+    width: 100%;
+    height: 130px;
+}
+
+/*<!-- ########################### FOOTER START ############################### -->*/
+
+footer{
+    background: #f7f7f7;
+    border-top: 1px solid #d7d7d7;
+    margin-top: 3%;
+}
+
+footer > div > ul{
+    direction: rtl;
+    width: 14%;
+}
+
+footer > div > ul > li{
+    padding: 10% 1%;
+
+}
+
+footer > div > ul > li + li{
+    padding: 1%;
+}
+
+footer > div > ul > li > a{
+    color: #000;
+}
+
+footer > div > ul > li + li a {
+    color: #999;
+    font-size: 0.9em;
+}
+
+footer > div > ul > li + li a:hover {
+    color: #000 !important;
+    text-decoration: underline !important;
+    transition: all 0.4s ease-in-out 0s !important;
+}
+
+footer > div > ul:last-child{
+    direction: rtl;
+    width: 28%;
+    padding-right: 2%;
+}
+
+footer > div > ul:last-child li{
+    padding:5% 1% 1% 1% !important;
+}
+
+footer > div > ul:last-child li + li{
+    padding:1% !important;
+}
+
+footer > div > ul:last-child li span{
+    margin-top: 0;
+    color: #555;
+}
+
+footer > div > ul:last-child li p{
+    margin-top: 0;
+    color: #000;
+}
+
+/*<!-- ### FOOTER second START ## -->*/
+
+footer > div:last-child {
+    margin: 1% auto !important;
+    border-top: 1px solid #d7d7d7 !important;
+}
+
+footer > div:last-child ul {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+footer > div:last-child ul li {
+    padding: 0 0 0 1% !important;
+    margin-top: 1% !important;
+    float: right;
+}
+
+footer > div:last-child ul li a{
+    color: #999 !important;
+    font-size: 1em !important;
+}
+
+footer > div:last-child ul li + li {
+    border-right: 1px solid #d7d7d7 !important;
+    padding: 0 1%  !important;
+}
+
+footer > div:last-child ul li:last-child {
+    float: left !important;
+    border-right: 1px solid transparent !important;
+}
+
+footer > div:last-child > ul > li  a:hover {
+    color: #000 !important;
+    text-decoration: underline !important;
+    transition: all 0.4s ease-in-out 0s !important;
+}
